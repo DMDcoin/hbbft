@@ -1,5 +1,5 @@
 src/proto/message.rs
-/target
+target/
 **/*.rs.bk
 Cargo.lock
 net-trace_*.txt
