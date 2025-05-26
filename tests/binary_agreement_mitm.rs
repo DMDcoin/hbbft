@@ -233,7 +233,7 @@ struct AbaCommonCoinAdversary {
 }
 
 const NODES_PER_GROUP: usize = 2;
-const NUM_NODES: usize = (NODES_PER_GROUP * 3 + 1);
+const NUM_NODES: usize = NODES_PER_GROUP * 3 + 1;
 
 impl AbaCommonCoinAdversary {
     fn new<R: Rng>(

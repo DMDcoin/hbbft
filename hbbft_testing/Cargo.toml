@@ -28,7 +28,7 @@ proptest = "0.10.1"
 rand = "0.7.3"
 rand_xorshift = "0.2.0"
 thiserror = "1.0"
-threshold_crypto = { rev = "776dd301a82036abf6fca60d574197e93e15810e", git = "https://github.com/dforsten/threshold_crypto" }
+threshold_crypto = { rev = "5b582c420cf93b75078654ac3df6ec297bfe0371", git = "https://github.com/DMDcoin/threshold_crypto.git" }
 
 [features]
 use-insecure-test-only-mock-crypto = ["hbbft/use-insecure-test-only-mock-crypto"]
